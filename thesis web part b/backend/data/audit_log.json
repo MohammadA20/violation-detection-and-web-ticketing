@@ -1,0 +1,84 @@
+[
+  {
+    "id": "b6190714-2660-4054-9c02-00a3a3861eb2",
+    "timestamp": "2026-07-02T20:42:41",
+    "actor": "admin",
+    "action": "ADMIN_LOGIN_SUCCESS",
+    "violation_id": null,
+    "details": {
+      "role": "admin"
+    }
+  },
+  {
+    "id": "e648285a-df39-4bd2-8cbd-e274e51147c1",
+    "timestamp": "2026-07-02T20:42:43",
+    "actor": "admin",
+    "action": "AI_FINAL_REPORT_IMPORTED",
+    "violation_id": null,
+    "details": {
+      "created_count": 1
+    }
+  },
+  {
+    "id": "3aafa0df-c73c-4a91-838e-ec64ee08a984",
+    "timestamp": "2026-07-02T20:42:45",
+    "actor": "admin",
+    "action": "VIOLATION_STATUS_UPDATED",
+    "violation_id": "4001769b-077b-4c17-b817-465545b64f2e",
+    "details": {
+      "old_status": "PENDING",
+      "new_status": "APPROVED",
+      "old_objection_status": null,
+      "new_objection_status": null,
+      "admin_comment": "Approved by admin",
+      "archived": false
+    }
+  },
+  {
+    "id": "ea76cac3-98b1-44b0-b944-03ccc359d00b",
+    "timestamp": "2026-07-02T20:47:59",
+    "actor": "owner",
+    "action": "VIOLATION_PAID",
+    "violation_id": "4001769b-077b-4c17-b817-465545b64f2e",
+    "details": {
+      "plate": "M918981",
+      "status": "PAID",
+      "archived": true
+    }
+  },
+  {
+    "id": "0cc721d6-0a24-45ab-9b68-01b6a601d6a9",
+    "timestamp": "2026-07-02T20:48:25",
+    "actor": "admin",
+    "action": "ADMIN_LOGIN_SUCCESS",
+    "violation_id": null,
+    "details": {
+      "role": "admin"
+    }
+  },
+  {
+    "id": "bfb1c129-0c01-4bd6-b423-c7f7ce2a1307",
+    "timestamp": "2026-07-02T20:49:44",
+    "actor": "admin",
+    "action": "AI_FINAL_REPORT_IMPORTED",
+    "violation_id": null,
+    "details": {
+      "created_count": 1
+    }
+  },
+  {
+    "id": "d3d7e909-32df-43bc-956d-2ea16a2b55ba",
+    "timestamp": "2026-07-02T20:49:49",
+    "actor": "admin",
+    "action": "VIOLATION_STATUS_UPDATED",
+    "violation_id": "0ab251e7-f10f-447b-84e5-1e5a8d357be5",
+    "details": {
+      "old_status": "PENDING",
+      "new_status": "APPROVED",
+      "old_objection_status": null,
+      "new_objection_status": null,
+      "admin_comment": "Approved by admin",
+      "archived": false
+    }
+  }
+]

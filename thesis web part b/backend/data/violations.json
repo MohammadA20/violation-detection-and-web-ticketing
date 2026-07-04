@@ -1,0 +1,98 @@
+[
+  {
+    "plate": "M918981",
+    "violation_type": "NO_HELMET",
+    "timestamp": "2026-07-02T20:42:43",
+    "location": "AI Detection Video",
+    "confidence": 0.198,
+    "evidence_images": [
+      "http://127.0.0.1:8000/results/helmet_crops/tid6_best2_t3.97_sh3912_a26832_predNO_HELMET_c0.20.jpg"
+    ],
+    "id": "4001769b-077b-4c17-b817-465545b64f2e",
+    "status": "PAID",
+    "admin_comment": "Approved by admin",
+    "objection_text": null,
+    "objection_evidence": null,
+    "objection_status": null,
+    "archived": true,
+    "ai_details": {
+      "source": "AI",
+      "run_id": "20260702_204213",
+      "speed": {
+        "max_stable_kmh": 25.62,
+        "limit_kmh": 60.0,
+        "violation": false,
+        "from_track": "6"
+      },
+      "helmet": {
+        "final_decision": "NO_HELMET",
+        "violation": true,
+        "decision_rule": "ratio>=thr",
+        "votes": {
+          "with": 0,
+          "without": 11,
+          "unknown": 3,
+          "total": 14
+        },
+        "confidence": 0.198,
+        "tracks_used": 1,
+        "skipped_weak_tracks": 0
+      },
+      "master_id": "M3",
+      "tracks": [
+        "6"
+      ],
+      "evidence": {
+        "helmet_image": "/results/helmet_crops/tid6_best2_t3.97_sh3912_a26832_predNO_HELMET_c0.20.jpg"
+      }
+    }
+  },
+  {
+    "plate": "M918981",
+    "violation_type": "NO_HELMET",
+    "timestamp": "2026-07-02T20:49:44",
+    "location": "AI Detection Video",
+    "confidence": 0.768,
+    "evidence_images": [
+      "http://127.0.0.1:8000/results/helmet_crops/tid6_best11_t5.74_sh3119_a7125_predNO_HELMET_c0.77.jpg"
+    ],
+    "id": "0ab251e7-f10f-447b-84e5-1e5a8d357be5",
+    "status": "APPROVED",
+    "admin_comment": "Approved by admin",
+    "objection_text": null,
+    "objection_evidence": null,
+    "objection_status": null,
+    "archived": false,
+    "ai_details": {
+      "source": "AI",
+      "run_id": "20260702_204932",
+      "speed": {
+        "max_stable_kmh": 25.62,
+        "limit_kmh": 60.0,
+        "violation": false,
+        "from_track": "6"
+      },
+      "helmet": {
+        "final_decision": "NO_HELMET",
+        "violation": true,
+        "decision_rule": "ratio>=thr",
+        "votes": {
+          "with": 0,
+          "without": 11,
+          "unknown": 3,
+          "total": 14
+        },
+        "confidence": 0.768,
+        "tracks_used": 1,
+        "skipped_weak_tracks": 0
+      },
+      "master_id": "M3",
+      "tracks": [
+        "6"
+      ],
+      "evidence": {
+        "helmet_image": "/results/helmet_crops/tid6_best11_t5.74_sh3119_a7125_predNO_HELMET_c0.77.jpg"
+      }
+    }
+  }
+]
